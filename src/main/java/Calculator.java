@@ -23,12 +23,6 @@ public class Calculator {
     public static int mult(int lhs, int rhs){
         return lhs * rhs;
     }
-    /*public static int div(int lhs, int rhs){
-        if (rhs == 0){
-            throw new IllegalArgumentException();
-        }
-        else return lhs / rhs;
-    }*/
     public static int sub(int lhs, int rhs){
         return lhs - rhs;
     }
